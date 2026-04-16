@@ -32,7 +32,3 @@ Site estático com quatro seções de conteúdo distribuídas em duas páginas, 
 ## Como rodar
 
 Abra o arquivo `index.html` no navegador. Sem dependências, sem instalação.
-
-## Demo
-
-[Ver site →](https://seuusuario.github.io/nome-do-repo)
