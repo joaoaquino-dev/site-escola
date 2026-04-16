@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="quiz">
+        <div class="section-header">
+            <div class="section-number">?</div>
+            <h2>Quiz Interativo</h2>
+        </div>
+
+        <div id="quiz-container">
+            <div id="quiz-game">
+                <div id="quiz-progress"></div>
+                <div id="quiz-question"></div>
+                <div id="quiz-options"></div>
+                <div id="quiz-feedback"></div>
+                <button id="quiz-next">Próxima Pergunta</button>
+            </div>
+
+            <div id="quiz-result" style="display: none;">
+                <h3 id="result-title"></h3>
+                <p id="result-text"></p>
+                <button id="quiz-restart">Tentar Novamente</button>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+            <a class="link-page" href="index.html">Voltar ao Início</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
